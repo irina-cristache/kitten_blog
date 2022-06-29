@@ -1,0 +1,22 @@
+@media (min-width: 720px) {
+    body {
+        background-color: aqua;
+    }
+
+
+#footer-container {
+    flex-direction: row;
+}
+
+#footer-container > section {
+    margin-right: 32px;
+}
+
+body > main > article > footer {
+    flex-direction: row;
+}
+
+body > main > article > footer > img {
+    margin-right: 32px;
+}
+}

@@ -1,0 +1,20 @@
+@media (min-width: 1080px) {
+    body {
+        background-color: white;
+    }
+    body > header {
+        flex-direction: row;
+    }
+
+    body > header ul {
+        align-items: center;
+    }
+
+    body > main {
+        flex-direction: row;
+    }
+
+    body > main > article {
+        padding: 0 100px;
+    }
+}
